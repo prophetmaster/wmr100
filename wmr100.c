@@ -279,7 +279,7 @@ void wmr_output_zmq(WMR *wmr, char *topic, char *msg) {
     strcpy(data, topic);
     data += strlen(topic) + 1;
     memcpy(data, msg, strlen(msg));
-    zmq_send(wmr->zmq_sock, buf, len, 0);
+    zmq_send(wmr->zmq_sock, buf, len);
     free(buf);
 }
 
