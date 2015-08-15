@@ -59,7 +59,7 @@ Raspberry pi
 
 To install on raspberry pi use this script:
 
-https://github.com/think-free/pi-scripts/raw/master/InstallWmr100OnPi.sh
+sudo bash ./install.sh
 
 Usage
 -----
